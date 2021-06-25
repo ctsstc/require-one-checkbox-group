@@ -1,0 +1,28 @@
+{
+  "name": "require-one-checkbox-group",
+  "version": "1.0.0",
+  "description": "Require at least one element to be checked in a checkbox group using form validation.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctsstc/require-one-checkbox-group.git"
+  },
+  "keywords": [
+    "checkbox",
+    "validation",
+    "require-one"
+  ],
+  "author": "Cody Swartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctsstc/require-one-checkbox-group/issues"
+  },
+  "homepage": "https://github.com/ctsstc/require-one-checkbox-group#readme",
+  "devDependencies": {
+    "snowpack": "^3.6.2"
+  }
+}
