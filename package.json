@@ -24,5 +24,8 @@
   "homepage": "https://github.com/ctsstc/require-one-checkbox-group#readme",
   "devDependencies": {
     "snowpack": "^3.6.2"
+  },
+  "dependencies": {
+    "@snowpack/plugin-sass": "^1.4.0"
   }
 }

@@ -4,4 +4,10 @@ module.exports = {
     // get everything from src to build/
     src: '/',
   },
+  plugins: [
+    [
+      '@snowpack/plugin-sass',
+      {},
+    ],
+  ],
 };
