@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Starter Snowpack App" />
-    <title>Starter Snowpack App</title>
-  </head>
-  <body>
-    <h1>Welcome to Snowpack!</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Starter Snowpack App" />
+  <title>Checkbox Require One in a Group</title>
+</head>
+
+<body>
+  <h1>Checkbox Require One in a Group</h1>
+
+  <form>
+
+    <fieldset>
+      <legend>Fruits</legend>
+
+      <p>Choose your fruit(s)</p>
+
+      <p>
+        <label><input type="checkbox" name="fruits[]" value="orange" /> 🍊</label>
+        <label><input type="checkbox" name="fruits[]" value="banana" /> 🍌</label>
+        <label><input type="checkbox" name="fruits[]" value="apple" /> 🍎</label>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Colors</legend>
+
+      <p>Choose your color(s)</p>
+
+      <p>
+        <label><input type="checkbox" name="colors[]" value="orange" /> 🟠</label>
+        <label><input type="checkbox" name="colors[]" value="blue" /> 🔵</label>
+        <label><input type="checkbox" name="colors[]" value="green" /> 🟢</label>
+      </p>
+    </fieldset>
+    
+    <input type="submit" value="Validate">
+  </form>
+
+  <script type="module" src="/index.js"></script>
+</body>
+
 </html>
