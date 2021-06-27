@@ -1,3 +1,3 @@
 import '../css/index.scss';
-import { helloWorld } from "./helloWorld";
-helloWorld();
+import { RequireCheckBoxes } from "./checkboxChecker";
+RequireCheckBoxes();
