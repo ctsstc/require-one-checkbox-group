@@ -1,8 +1,5 @@
 import { winLoad } from "./winLoad";
 
-var test = [];
-test.asd
-
 export function RequireCheckBoxes() {
 
   // add event listener for on form submit validate the fields
